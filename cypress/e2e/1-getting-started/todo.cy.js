@@ -55,6 +55,7 @@ describe('example to-do app', () => {
       .should('have.length', 3)
       .last()
       .should('have.text', newItem)
+      expect(fddfa)
   })
 
   it('can check off an item as completed', () => {
